@@ -67,6 +67,9 @@ nav{
     background-position: bottom right, left;
    
 }
+section{
+    margin-top: 130px;
+}
 /* main section */
 main{
     max-width: 1140px;
@@ -82,12 +85,13 @@ main{
      font-size: 35px;
      padding: 130px 150px;
      text-align: center;
-     margin-bottom: 30px;
-     
-      
+     margin-bottom: 30px;      
 }
-.section title{
-    
+.section-title{
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 30px;
 }
 .aboutp{
     color: #757575;
@@ -99,3 +103,70 @@ main{
     font-size: small;
     justify-content: space-around;
 }
+/* what i do styles */
+.what-i-do{
+    margin-top: 130px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba( 0, 0, 0 , 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom:20px ;
+}
+.skill-description{
+    color:#757575;
+}
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume.title{
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;  
+}
+.resume.sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+}
+.resume.description{
+    color: #757575;
+}
+.downloadcv{
+    margin-top: 20px ;
+    text-align: center;
+}
+.please{
+    font-weight: 400;
+    font-size: 16px;
+}
+.contact{
+display: flex;
+gap: 100px;
+background: #FFF8F3;
+padding: 120px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.gap{
+    margin-bottom: 20px;
+}
+
+    
