@@ -1,0 +1,101 @@
+*{
+    margin-left:0px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* faw barti onso */
+/* .text-style ,.line{
+    margin-left: 200px; 
+ } */
+
+/* header and nav style */
+.text-style{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav li{
+    list-style: none;
+    margin: 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 20px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: 0;
+    padding: 18px 35px;
+    
+
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+/* banner styles */
+.banner{
+    margin:0 200px;
+    display: flex;
+    align-items: center;
+}
+.banner-title{
+     font-weight: 600;
+     font-size: 45px;
+     margin-bottom: 20px;
+}
+.banner-title2{
+    font-weight: 700;
+    font-size: 85px;
+}
+.words{
+    color:#757575;
+    font-size: 18px;
+}
+.background{
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png); 
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+   
+}
+/* main section */
+main{
+    max-width: 1140px;
+    
+    margin: 0 auto;
+}
+/* about section style */
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+     border-radius: 10px;
+     font-weight: 400;
+     font-size: 35px;
+     padding: 130px 150px;
+     text-align: center;
+     margin-bottom: 30px;
+     
+      
+}
+.section title{
+    
+}
+.aboutp{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    font-size: small;
+    justify-content: space-around;
+}
